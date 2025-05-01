@@ -116,6 +116,8 @@ def get_common_tsp_instances():
     
     # Define paths for common instances
     berlin52_path = os.path.join(DEFAULT_TSP_DIR, "berlin52.tsp")
+    a280_path = os.path.join(DEFAULT_TSP_DIR, "a280.tsp")
+    ch130_path = os.path.join(DEFAULT_TSP_DIR, "ch130.tsp")
     
     # Check if berlin52.tsp exists, if not, create it
     if not os.path.exists(berlin52_path):
@@ -186,6 +188,12 @@ EOF"""
     if os.path.exists(berlin52_path):
         instances['berlin52'] = load_tsp_from_file(berlin52_path)
     
+    if os.path.exists(a280_path):
+        instances['a280'] = load_tsp_from_file(a280_path)
+    
+    if os.path.exists(ch130_path):
+        instances['ch130'] = load_tsp_from_file(ch130_path)
+
     return instances
 
 
