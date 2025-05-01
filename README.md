@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FunSearch-TSP
 
 Implementation of the FunSearch algorithm for solving Traveling Salesman Problems (TSP) with comparison to Google OR-Tools.
@@ -46,6 +45,4 @@ Results are saved to the `comparison_results` directory.
 
 - FunSearch paper: [FunSearch: Making New Discoveries in Mathematical Sciences using Large Language Models](https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/)
 - Google OR-Tools: [https://developers.google.com/optimization](https://developers.google.com/optimization)
-=======
-# TSPviaLLM
->>>>>>> 1eabb844cbeac7867bf501d6a24b80c565337820
+
